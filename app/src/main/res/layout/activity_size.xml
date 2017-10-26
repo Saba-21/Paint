@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc.myapplication.Size">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1px"
+            android:onClick="size"/>
+
+        <RadioButton android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5px"
+            android:onClick="size"/>
+
+        <RadioButton
+            android:id="@+id/ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10px"
+            android:onClick="size"/>
+
+        <RadioButton
+            android:id="@+id/fifteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15px"
+            android:onClick="size"/>
+
+        <RadioButton
+            android:id="@+id/twenty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20px"
+            android:onClick="size"/>
+
+        <RadioButton
+            android:id="@+id/thirty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30px"
+            android:onClick="size"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:onClick="ok"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
